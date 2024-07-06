@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+    margin-top: 10%;
+    position: relative;
+    width: 87%;
+}
+.todoinput{
+    width: 55%;
+    height: 35px;
+    margin-bottom: 2%;
+    padding-left: 10px;
+    font-size: 17px; 
+    offset: none;
+}
+.taskbutton{
+    width:95px ;
+    height: 35px;
+    color: white;
+    font-weight: 500;
+    background-color:#344e41;
+    margin-bottom: 3%;
+border: none;
+position: absolute;
+margin-left: 10px;
+border-radius: 5px;
+cursor: pointer;
+}
+.action{
+    margin-top: 25px ;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 295px;
+}
+span{
+    font-weight: 900;
+}
+
